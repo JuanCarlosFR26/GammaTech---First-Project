@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+/*=============== Header ===============*/
+
+.header {
+    text-align: center;
+    padding: 4px;
+}
+
+.header h1 {
+    color: #F5090A;
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.header p {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Roboto Slab', serif;
+}
+
+/*===================== Navbar =====================*/
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: #808080;
+    align-items: center;
+    padding: 12px;
+    height: 130px;
+    border: 3px solid #000;
+    border-radius: 20px;
+    margin-top: 13px;
+}
+
+.navbar img {
+    width: 50px;
+    height: 50px;
+    margin-top: 6px;
+}
+
+.navbar .list {
+    display: flex;
+    margin-top: 18px;
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+.navbar .list .list-item a {
+    color: #fff;
+}
+
+.navbar .list .list-item a:hover {
+    text-decoration: underline;
+}
+
+
+/*==================== Banner ====================*/
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 600px;
+    border-bottom-left-radius: 90px;
+    margin-bottom: 30px;
+    border: 2px solid #000;
+    background-image: url('images/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-container .title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    height: 5%;
+}
+
+.main-container .title-container h2 {
+    font-size: 32px;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.main-container .title-container .button {
+    padding: 2px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 4px solid #fff;
+    background-color: #FFFF00;
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.main-container .tag-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60%;
+    justify-items: center;
+}
+
+.main-container .tag-container [class|='tag'] {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 420px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 35px;
+    box-shadow:  0px 5px 20px 18px rgba(0,0,0,0.9);
+}
+
+.main-container .tag-container [class|='tag'] .button {
+    padding: 2px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 4px solid #fff;
+    background-color: #FFFF00;
+    letter-spacing: 2px;
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+}
+
+.main-container .tag-container .tag-1 {
+    background-image: url('images/tag-1.jpg');
+    background-position: center;
+    background-size: contain;
+}
+
+
+.main-container .tag-container .tag-2 {
+    background-image: url('images/tag-2.jpg');
+}
+
+
+
+/*=================== FEATURED ===================*/
+
+.featured {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 600px;
+}
+
+.featured h2 {
+    color: #F5090A;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.featured .featured-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: center;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 500px;
+}
+
+.featured .featured-container [class|='featured'] {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 550px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 2px solid #000;
+}
+
+.featured .featured-container [class|='featured'] .button {
+    padding: 2px;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 4px solid #fff;
+    background-color: #FFFF00;
+    letter-spacing: 2px;
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+}
+
+.featured .featured-container .featured-1 {
+    background-image: url('images/f1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.featured .featured-container .featured-2 {
+    background-image: url('images/f2.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.featured .featured-container .featured-3 {
+    background-image: url('images/f3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-size: 18px;
+}
+
+#button:hover {
+    color: #F5090A;
+}

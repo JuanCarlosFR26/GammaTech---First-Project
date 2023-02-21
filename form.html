@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="assets/form.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&family=Roboto:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <form action="POST" class="form">
+        <h1>Contact Us</h1>
+        <div class="container">
+            <label for="options">Type of Query</label>
+            <select name="options">
+                <option value="Select">Select</option>
+                <option value="">Op1</option>
+                <option value="">Op2</option>
+                <option value="">Op3</option>
+                <option value="">Op4</option>
+            </select>
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="Enter your Name">
+            <label for="email">Email-Id</label>
+            <input type="email" name="email" placeholder="Enter your email">
+            <label for="number">Phone Number</label>
+            <input type="phone" name="number" placeholder="Enter your Phone no">
+            <p>Are you a member of OnlineRolShop: Yes<input type="radio">No<input type="radio"></p>
+            <label for="message">Ellaborate your query</label>
+            <textarea name="message" cols="30" rows="10"></textarea>
+            <div class="buttons">
+                <button>Submit</button>
+                <button>Reset</button>
+                <!-- <input type="submit" value="Submit">
+                <input type="reset" value="Reset"> -->
+            </div>
+
+        </div>
+    </form>
+
+</body>
+</html>
