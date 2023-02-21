@@ -140,12 +140,14 @@ html {
 .main-container .tag-container .tag-1 {
     background-image: url('images/tag-1.jpg');
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 
 
 .main-container .tag-container .tag-2 {
     background-image: url('images/tag-2.jpg');
+    background-position: center;
+    background-size: contain;
 }
 
 
@@ -208,7 +210,7 @@ html {
 }
 
 .featured .featured-container .featured-2 {
-    background-image: url('images/f2.png');
+    background-image: url('images/f2.jpg');
     background-position: center;
     background-size: cover;
 }
