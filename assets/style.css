@@ -59,10 +59,14 @@ html {
 
 .navbar .list .list-item a {
     color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 .navbar .list .list-item a:hover {
-    text-decoration: underline;
+    background-color: #F5090A;
+    color: #000;
 }
 
 
@@ -230,5 +234,6 @@ footer p {
 }
 
 #button:hover {
-    color: #F5090A;
+    background-color: #F5090A;
 }
+
