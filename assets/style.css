@@ -237,3 +237,65 @@ footer p {
     background-color: #F5090A;
 }
 
+
+/*================ Featured Products pages ================*/
+
+.featured-container {
+    background: url('../assets/images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'h1 h1'
+    'txt img'
+    'txt2 img';
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-items: center;
+    width: 70%;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 28px;
+    background-color: #fff;
+
+}
+
+.grid-container h1 {
+    grid-area: h1;
+    margin-bottom: 40px;
+    color: #F5090A;
+}
+
+.grid-container p {
+    grid-area: txt;
+    padding: 28px;
+    width: 70%;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.43m;
+}
+
+.grid-container .txt2 {
+    grid-area: txt2;
+}
+
+.grid-container img {
+    grid-area: img;
+    width: 430px;
+    height: 430px;
+    border-radius: 40px;
+    justify-self: flex-start;
+}
+
+.ft-footer {
+    margin-top: 80px;
+    font-weight: bold;
+}
