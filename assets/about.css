@@ -104,15 +104,42 @@ html {
     display: grid;
     margin-top: 60px;
     gap: 120px;
-    grid-template-areas: 
+    /* grid-template-areas: 
     'p1 pi1'
     'pi2 p2'
-    'p3 pi3';
+    'p3 pi3'; */
+    grid-template-areas: 
+    'art1 art1'
+    'art2 art2'
+    'art3 art3';
     justify-items: center;
 
 }
 
-#p1 {
+.art-1 {
+    grid-area: art1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.art-2 {
+    grid-area: art2;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.art-3 {
+    grid-area: art3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* #p1 {
     grid-area: p1;
 }
 
@@ -134,12 +161,13 @@ html {
 
 #pi3 {
     grid-area: pi3;
-}
+} */
 
 .text-section .text-container img {
     width: 500px;
     height: 400px;
     border-radius: 30%;
+    margin: 12px;
 }
 
 .text-section .text-container h2 {
@@ -156,7 +184,7 @@ html {
 /*=================== FOOTER ===================*/
 
 footer {
-    margin-top: 50px;
+    margin-top: 80px;
     text-align: center;
 }
 

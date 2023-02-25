@@ -9,7 +9,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
 }
 
 .form {
@@ -21,10 +21,13 @@ body {
     margin-top: 100px;
 }
 
-.form h1 {
+h1 {
+    text-align: center;
+    height: 100px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 20px;
+    line-height: 8.8em;
 }
 
 .container {
